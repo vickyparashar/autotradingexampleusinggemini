@@ -11,7 +11,7 @@ from langchain.prompts import PromptTemplate
 os.environ["GOOGLE_API_KEY"] = "AIzaSyDf9GjmDLWHlqmUI5nwHZ39xKVOk39kOh4"
 
 # 2. Paths
-file_path = r"C:\VickyJD\Tools\sampletool\ragpoc\data\datastore.txt"
+file_path = r"C:\Users\jparasha\OneDrive - Capgemini\Vicky\CG\Pass\dailynotes\AllDailyNotesOne.txt"
 index_path = Path("faiss_index")
 
 # 3. Create embeddings
@@ -34,7 +34,7 @@ else:
     print("✅ Index saved to disk.")
 
 # 5. Load Ollama LLM
-llm = OllamaLLM(model="gemma3:4b")  # Swap with mistral, llama3:8b, etc.
+llm = OllamaLLM(model="gemma3n:e2b")  # Swap with mistral, llama3:8b, etc.
 
 # 6. Custom prompt
 prompt = PromptTemplate.from_template(

@@ -104,3 +104,5 @@ cython_debug/
 
 # VS Code settings
 .vscode/
+# Ignore faiss index folder
+faiss_index/

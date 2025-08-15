@@ -1,0 +1,3 @@
+all three deployed camel api dev to preprod
+we have also made changes for config that will help in cname
+rmg-global-dsp-a-mysql01.rmgn.royalmailgroup.net
